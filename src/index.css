@@ -1,0 +1,48 @@
+.body-style {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: "Lateef", serif;
+}
+
+.gradient {
+  background: #ff0000;
+  background: linear-gradient(to left, #ff0000 0%, #000000 100%);
+  color: white;
+  transition: .5s !important;
+  background-size: 200% auto;
+}
+
+.gradient:hover {
+  /* change the direction of the change here */
+  background-position: right center; 
+}
+
+
+.gradient-text {
+  background: #ff0000;
+  background: linear-gradient(to left, #ff0000 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
+}
+ 
+.btn-grad {
+  background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+  transition: .5s !important;
+  background-size: 200% auto;
+}
+
+.btn-grad:hover {
+  /* change the direction of the change here */
+  background-position: right center; 
+}
+
+.question-style {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.answer-style {
+  color: #524e4e;
+  font-size: 24px;
+}
